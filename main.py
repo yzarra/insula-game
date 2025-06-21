@@ -3,6 +3,7 @@ pygame.init()
 from customizer import Customizer
 
 def main():
+    print(pygame.version.ver)
     customizer = Customizer()  # create instance of customizer class 
 
     # variables
@@ -47,7 +48,7 @@ def main():
         screen.blit(exit_text, exit_text_rect)
 
     # draw gameplay screen
-    def draw_gameplay_screen():
+    def draw_gameplay_screen(): 
         screen.fill((0, 0, 0))
         # exit button
         pygame.draw.rect(screen, orange, exitButton)
@@ -90,3 +91,4 @@ def main():
 # call main to start the main method
 if __name__ == "__main__":  
     main()
+  
