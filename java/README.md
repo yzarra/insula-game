@@ -12,3 +12,6 @@
 1. Import the .java files into your Java IDE of choice inside the src file
 2. For now, the IDE expects the assets folder to be located at "C:\gdxprojects\crying-2\assets\", so put it there
 3. Run through driver as usual :)
+
+## Honestly, the release version of the python rewrite is better though
+Download it here: 
