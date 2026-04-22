@@ -1,2 +1,3 @@
-# insula-game
-python version of the java game i prev. made
+## Python version!
+to install go to releases:
+https://github.com/yzarra/insula-game/releases/tag/insula
