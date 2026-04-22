@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insula</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- MAIN MENU SCREEN -->
+  <div id="main-menu">
+    <button class="text-btn" id="start-btn">Start Game</button>
+  </div>
+
+  <!-- CUSTOMIZER SCREEN -->
+  <div id="customizer" class="hidden">
+
+    <!-- Character canvas (layered images) -->
+    <div id="character">
+      <img id="layer-skin"       class="layer" src="" alt="" />
+      <img id="layer-tattoo"     class="layer" src="" alt="" />
+      <img id="layer-nose"       class="layer" src="" alt="" />
+      <img id="layer-lip"        class="layer" src="" alt="" />
+      <img id="layer-eye"        class="layer" src="" alt="" />
+      <img id="layer-brow"       class="layer" src="" alt="" />
+      <img id="layer-hair-back"  class="layer" src="" alt="" />
+      <img id="layer-outfit"     class="layer" src="" alt="" />
+      <img id="layer-hair-front" class="layer" src="" alt="" />
+    </div>
+
+    <!-- LEFT PANEL -->
+    <div id="left-panel" class="panel">
+      <button class="cycle-btn" data-action="hair_style">Hair Style</button>
+      <button class="cycle-btn" data-action="nose_idx">Nose Shape</button>
+      <button class="cycle-btn" data-action="lip_shape">Lip Shape</button>
+      <button class="cycle-btn" data-action="eye_shape">Eye Shape</button>
+      <button class="cycle-btn" data-action="brow_style">Brows</button>
+      <button class="cycle-btn" data-action="tattoo_idx">Tattoos</button>
+      <div class="divider"></div>
+      <button class="cycle-btn" data-action="skin_idx">Skin Tone</button>
+      <button class="cycle-btn" data-action="hair_color">Hair Color</button>
+      <button class="cycle-btn" data-action="lip_color">Lipstick</button>
+      <button class="cycle-btn" data-action="eye_color">Eye Color</button>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div id="right-panel" class="panel">
+      <button class="cycle-btn" data-action="cat_idx">Category</button>
+      <button class="cycle-btn" data-action="outfit_idx">Next Outfit</button>
+    </div>
+
+    <!-- BOTTOM BAR -->
+    <div id="bottom-bar">
+      <span id="category-label">Category: Swimwear</span>
+      <span id="outfit-label">Outfit: Baywatch</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
