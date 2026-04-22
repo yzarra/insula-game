@@ -14,4 +14,4 @@
 3. Run through driver as usual :)
 
 ## Honestly, the release version of the python rewrite is better though
-Download it here: 
+Download it here: https://github.com/yzarra/insula-game/releases/tag/insula
