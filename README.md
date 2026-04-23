@@ -12,7 +12,7 @@ https://github.com/yzarra/insula-game/releases/tag/insula
 ## Project Structure ##
 - `/java` → Java version
 - `/python` → Python version
-- `/docs` → supporting assets and documentation
+- `/docs` → Web (JS, HTML, CSS) version
 
 Each version has its own setup instructions in its respective folder.
 
